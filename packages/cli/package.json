@@ -1,0 +1,22 @@
+{
+  "name": "@agentbridge/cli",
+  "version": "0.2.0",
+  "description": "CLI adapter for AgentBridge runtime",
+  "type": "module",
+  "bin": {
+    "agentbridge": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@agentbridge/sdk": "file:../sdk",
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

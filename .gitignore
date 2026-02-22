@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log*
+yarn-error.log
+pnpm-lock.yaml
+package-lock.old.json
+node_modules.old
+dist
+.cache
+.DS_Store
+coverage
+.env
+.env.local
+data/sessions
+*.log

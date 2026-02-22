@@ -1,0 +1,27 @@
+{
+  "name": "@agentbridge/mcp",
+  "version": "0.2.0",
+  "description": "Model Context Protocol server for AgentBridge",
+  "type": "module",
+  "main": "dist/server.js",
+  "types": "dist/server.d.ts",
+  "bin": {
+    "agentbridge-mcp": "dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@agentbridge/sdk": "file:../sdk",
+    "@agentbridge/shared": "file:../shared",
+    "fastify": "^4.29.1",
+    "zod": "^3.22.4",
+    "pino": "^9.3.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.3.3"
+  }
+}
