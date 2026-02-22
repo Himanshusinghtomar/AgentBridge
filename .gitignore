@@ -6,6 +6,7 @@ package-lock.old.json
 node_modules.old
 dist
 .cache
+.tsbuildinfo
 .DS_Store
 coverage
 .env
